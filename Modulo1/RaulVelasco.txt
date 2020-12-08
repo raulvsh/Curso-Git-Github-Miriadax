@@ -1,0 +1,17 @@
+Raúl Velasco
+which git
+git config --global user.name "raulvsh"
+git config --global user.email "raulvsh@gmail.com"
+ls -a ~/
+cd ~/.ssh
+ssh-keygen -t rsa -C raulvsh@gmail.com
+cd ~/.ssh
+ls
+xclip -sel clip < ~/.ssh/id_rsa.pub
+more id_rsa.pub 
+ssk-keygen
+ssh -T git@github.com
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDAgTuBfjo6BVC1u8bwFu5vk787ps2ZETSwC80hMMZ1U3Quzojw8/yRExgq5UYg/VU41SvYu8JR99doY8tDH+BwRK02BRDNq/ebITUfERbWrWIz1j06UnNI4QkCOY3VU2apu0RPdkgB6Xe46+HfV6OTnGfamlFjRU52P5hntPgczJxQglidnUzdWzwjgoAttQM8IVYWdiezKqKvZsgcpMfwQCvh8fMGBCvkyJAk2AZHXJMy+w0OpZgjpQAQr09q8qdS/4bFOAcz2TYYHkxt+T2+Y5WHnrXy0CGuiXLiNU2CHvLumcboIjGOGjGDZxV3blB7WMZ5xe2mArg8peTbxVP08Es85J71VEpZLGc46dpl+FU6AevcmwM2Pu3+VFgDruZG+MGtLLinrLfEiL66ixP/rk5TTswyDcQakkiW8/hIcuMdeBQMbNzmmtA2Yom8TmNloIMMw+LRhTkjsJ9CSIUn2p4ym2+sYNvc+sAkgzF3nCZiQ45Pe3V8PG/gpVuOm10= raulvsh@gmail.com
+Hi raulvsh! You've successfully authenticated, but GitHub does not provide shell access.
+
+history -w RaulVelasco.txt
